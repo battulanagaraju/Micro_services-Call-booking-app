@@ -1,5 +1,5 @@
 FROM node:17.9.0-slim
-LABEL maintainer:"nagaraju"
+LABEL maintainer="nagaraju"
 RUN useradd userapi
 WORKDIR /app
 COPY . .
